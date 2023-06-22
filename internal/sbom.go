@@ -25,6 +25,7 @@ const (
 	OCI_ANNOTATION_CREATION_DATE      = "org.spdx.created"
 	OCI_ANNOTATION_CREATORS           = "org.spdx.creator"
 	OCI_ANNOTATION_PACKAGES           = "org.spdx.packages"
+	OCI_ANNOTATION_PACKAGE_COUNT      = "org.spdx.package_count"
 	OCI_ANNOTATION_FILES              = "org.spdx.files"
 	OCI_ANNOTATION_ANNOTATOR          = "org.spdx.annotator"
 	OCI_ANNOTATION_ANNOTATION_DATE    = "org.spdx.annotation_date"
@@ -127,6 +128,8 @@ func GetAnnotations(sbom *v2_3.Document) (map[string]string, error) {
 		creatorstrings = append(creatorstrings, fmt.Sprint(creator.Creator))
 	}
 
+	packages, err := GetPackages(sbom)
+
 	annotations := make(map[string]string)
 	annotations[OCI_ANNOTATION_DOCUMENT_NAME] = sbom.DocumentName
 	annotations[OCI_ANNOTATION_DATA_LICENSE] = sbom.DataLicense
@@ -134,7 +137,11 @@ func GetAnnotations(sbom *v2_3.Document) (map[string]string, error) {
 	annotations[OCI_ANNOTATION_SPDX_VERSION] = sbom.SPDXVersion
 	annotations[OCI_ANNOTATION_CREATION_DATE] = sbom.CreationInfo.Created
 	annotations[OCI_ANNOTATION_CREATORS] = strings.Join(creatorstrings, ", ")
-	annotations[OCI_ANNOTATION_PACKAGES] = strconv.Itoa(len(sbom.Packages))
+	if err == nil {
+		annotations[OCI_ANNOTATION_PACKAGE_COUNT] = strconv.Itoa(len(sbom.Packages))
+		annotations[OCI_ANNOTATION_PACKAGES] = strings.Join(packages, ", ")
+	}
+
 	annotations[OCI_ANNOTATION_FILES] = strconv.Itoa(len(sbom.Files))
 
 	return annotations, nil
