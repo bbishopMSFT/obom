@@ -128,7 +128,10 @@ func GetAnnotations(sbom *v2_3.Document) (map[string]string, error) {
 		creatorstrings = append(creatorstrings, fmt.Sprint(creator.Creator))
 	}
 
-	packages, err := GetPackages(sbom)
+	var packages []string
+	for _, pkg := range sbom.Packages {
+		packages = append(packages, fmt.Sprint(pkg.PackageName))
+	}
 
 	annotations := make(map[string]string)
 	annotations[OCI_ANNOTATION_DOCUMENT_NAME] = sbom.DocumentName
@@ -137,11 +140,8 @@ func GetAnnotations(sbom *v2_3.Document) (map[string]string, error) {
 	annotations[OCI_ANNOTATION_SPDX_VERSION] = sbom.SPDXVersion
 	annotations[OCI_ANNOTATION_CREATION_DATE] = sbom.CreationInfo.Created
 	annotations[OCI_ANNOTATION_CREATORS] = strings.Join(creatorstrings, ", ")
-	if err == nil {
-		annotations[OCI_ANNOTATION_PACKAGE_COUNT] = strconv.Itoa(len(sbom.Packages))
-		annotations[OCI_ANNOTATION_PACKAGES] = strings.Join(packages, ", ")
-	}
-
+	annotations[OCI_ANNOTATION_PACKAGE_COUNT] = strconv.Itoa(len(sbom.Packages))
+	annotations[OCI_ANNOTATION_PACKAGES] = strings.Join(packages, ", ")
 	annotations[OCI_ANNOTATION_FILES] = strconv.Itoa(len(sbom.Files))
 
 	return annotations, nil
