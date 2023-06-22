@@ -130,7 +130,7 @@ func GetAnnotations(sbom *v2_3.Document) (map[string]string, error) {
 
 	var packages []string
 	for _, pkg := range sbom.Packages {
-		packages = append(packages, fmt.Sprint(pkg.PackageName))
+		packages = append(packages, fmt.Sprint(pkg.PackageName)+":"+fmt.Sprint(pkg.PackageVersion)+":"+fmt.Sprint(pkg.PackageLicenseDeclared))
 	}
 
 	annotations := make(map[string]string)
