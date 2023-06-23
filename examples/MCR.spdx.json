@@ -36032,7 +36032,7 @@
       "spdxElementId": "SPDXRef-RootPackage"
     }
   ],
-  "spdxVersion": "SPDX-2.2",
+  "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "MCR 1.0.02319.77",
