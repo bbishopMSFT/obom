@@ -11,7 +11,7 @@
   "documentDescribes": [
     "SPDXRef-RootPackage"
   ],
-  "documentNamespace": "https://sbom.microsoft/iso_client_cloudedition_en-us/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2",
+  "documentNamespace": "https://sbom.microsoft/iso_client_professional_en-us/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2",
   "externalDocumentRefs": [
     {
       "checksum": {
@@ -19,7 +19,7 @@
         "checksumValue": "d669742876e3562cd3e1519c9e41993f2569c2f3"
       },
       "externalDocumentId": "DocumentRef-iso-client-professional-en-us-Iso-BootWim-cedafc75-3ddf-db66-f46c-92af6e244070-D669742876E3562CD3E1519C9E41993F2569C2F3",
-      "spdxDocument": "https://sbom.microsoft/iso_client_cloudedition_en-us-Iso-BootWim/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
+      "spdxDocument": "https://sbom.microsoft/iso_client_professional_en-us-Iso-BootWim/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
     },
     {
       "checksum": {
@@ -27,15 +27,15 @@
         "checksumValue": "3976289a13d3ffbb87aed6b9378297390243a788"
       },
       "externalDocumentId": "DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professional-cedafc75-3ddf-db66-f46c-92af6e244070-3976289A13D3FFBB87AED6B9378297390243A788",
-      "spdxDocument": "https://sbom.microsoft/iso_client_cloudedition_en-us-Iso-InstallWim-professional/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
+      "spdxDocument": "https://sbom.microsoft/iso_client_professional_en-us-Iso-InstallWim-professional/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
     },
     {
       "checksum": {
         "algorithm": "SHA1",
         "checksumValue": "b032fd10bc2f8e2320cda97d60bb9c69719249d4"
       },
-      "externalDocumentId": "DocumentRef-iso-client-professional-en-us-Iso-InstallWim-CloudEditionN-cedafc75-3ddf-db66-f46c-92af6e244070-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
-      "spdxDocument": "https://sbom.microsoft/iso_client_cloudedition_en-us-Iso-InstallWim-CloudEditionN/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
+      "externalDocumentId": "DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professionalN-cedafc75-3ddf-db66-f46c-92af6e244070-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
+      "spdxDocument": "https://sbom.microsoft/iso_client_professional_en-us-Iso-InstallWim-professionalN/cedafc75-3ddf-db66-f46c-92af6e244070/25890.1000.rs_es_ostools.230618-0001-amd64fre-54414d35-17eb-4207-809a-a4577f1ce4e2"
     }
   ],
   "files": [
@@ -52,7 +52,7 @@
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "./DocumentRef-iso_client_cloudedition_en-us-Iso-BootWim/manifest.spdx.json",
+      "fileName": "./DocumentRef-iso_client_professional_en-us-Iso-BootWim/manifest.spdx.json",
       "fileTypes": [
         "SPDX"
       ],
@@ -74,7 +74,7 @@
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "./DocumentRef-iso_client_cloudedition_en-us-Iso-InstallWim-professional/manifest.spdx.json",
+      "fileName": "./DocumentRef-iso_client_professional_en-us-Iso-InstallWim-professional/manifest.spdx.json",
       "fileTypes": [
         "SPDX"
       ],
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-CloudEditionN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
+      "SPDXID": "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professionalN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -96,7 +96,7 @@
         }
       ],
       "copyrightText": "NOASSERTION",
-      "fileName": "./DocumentRef-iso_client_cloudedition_en-us-Iso-InstallWim-CloudEditionN/manifest.spdx.json",
+      "fileName": "./DocumentRef-iso_client_professional_en-us-Iso-InstallWim-professionalN/manifest.spdx.json",
       "fileTypes": [
         "SPDX"
       ],
@@ -18137,7 +18137,7 @@
       ]
     }
   ],
-  "name": "iso_client_cloudedition_en-us",
+  "name": "iso_client_professional_en-us",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-BD7673870E0DEABA5F109A0C8ED17E952EF3811FB19605EC74010389252F26E4",
@@ -18937,7 +18937,7 @@
       "hasFiles": [
         "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-BootWim-manifest.spdx.json-D669742876E3562CD3E1519C9E41993F2569C2F3",
         "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professional-manifest.spdx.json-3976289A13D3FFBB87AED6B9378297390243A788",
-        "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-CloudEditionN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
+        "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professionalN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4",
         "SPDXRef-File--autorun.inf-F8B831B38942FBBA9440B3E5E76E77C8F4C8D8CA",
         "SPDXRef-File--boot-bcd-BB76BEF9E82009E11B4A1E36007C193154B35307",
         "SPDXRef-File--boot-boot.sdi-BB025CEDCA07887916C4B7E5FA7A641ED3E30C14",
@@ -19893,7 +19893,7 @@
       "licenseInfoFromFiles": [
         "NOASSERTION"
       ],
-      "name": "iso_client_cloudedition_en-us",
+      "name": "iso_client_professional_en-us",
       "packageVerificationCode": {
         "packageVerificationCodeValue": "df46bf7784a5df73e88d8c77fa9590fce738a8da"
       },
@@ -20539,7 +20539,7 @@
     {
       "relatedSpdxElement": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBED_BY",
-      "spdxElementId": "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-CloudEditionN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4"
+      "spdxElementId": "SPDXRef-File--DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professionalN-manifest.spdx.json-B032FD10BC2F8E2320CDA97D60BB9C69719249D4"
     },
     {
       "relatedSpdxElement": "SPDXRef-RootPackage",
@@ -20557,7 +20557,7 @@
       "spdxElementId": "SPDXRef-RootPackage"
     },
     {
-      "relatedSpdxElement": "DocumentRef-iso-client-professional-en-us-Iso-InstallWim-CloudEditionN-cedafc75-3ddf-db66-f46c-92af6e244070-B032FD10BC2F8E2320CDA97D60BB9C69719249D4:SPDXRef-RootPackage",
+      "relatedSpdxElement": "DocumentRef-iso-client-professional-en-us-Iso-InstallWim-professionalN-cedafc75-3ddf-db66-f46c-92af6e244070-B032FD10BC2F8E2320CDA97D60BB9C69719249D4:SPDXRef-RootPackage",
       "relationshipType": "PREREQUISITE_FOR",
       "spdxElementId": "SPDXRef-RootPackage"
     }

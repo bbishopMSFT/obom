@@ -20083,7 +20083,7 @@
       ]
     }
   ],
-  "name": "iso_server_datacenter_en-us_vl",
+  "name": "iso_server_datacentercore_en-us_vl",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-BD7673870E0DEABA5F109A0C8ED17E952EF3811FB19605EC74010389252F26E4",
