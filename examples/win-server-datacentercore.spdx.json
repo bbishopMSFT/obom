@@ -20228,7 +20228,7 @@
       "licenseInfoFromFiles": [
         "NOASSERTION"
       ],
-      "name": "LegacyTools",
+      "name": "MCR-Common-Tools",
       "supplier": "Organization: Microsoft",
       "versionInfo": "1.0.1-IndividualCI+5e6d2dabedd62ae11158c398af2baf53d15dd218"
     },
